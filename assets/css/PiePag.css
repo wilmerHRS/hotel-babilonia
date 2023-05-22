@@ -1,0 +1,185 @@
+/* Diseño del pie de pagina */
+
+.MainPiePag{
+    background: #2a3942;
+    height: 250PX;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.P1, .P2, .P3{
+
+    width: 250px;
+    height: 200px;
+}
+
+.MainPPlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.MainRD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PPlogo{
+    background-image: url(../img/logoPng.png);
+    background-size:cover;
+    width: 160px;
+    height: 150px;
+
+}
+
+
+/* Redes Sociales */
+
+.RedesSociales ul{
+    list-style: none;
+    display: flex;
+}
+
+.RedesSociales li{
+    padding: 15px;
+}
+
+.RedesSociales button{
+    background: transparent;
+    border: none;
+}
+
+.fa-brands{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: white;
+}
+
+.P2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts ul{
+    color: white;
+    list-style: none;
+}
+
+.contacts li{
+    padding-bottom: 15px;
+}
+
+.contacts hr{
+    height: 3px;
+    border-color: #1cc3b2;
+    background: #1cc3b2;
+}
+
+.opcP1 ul{
+    color: white;
+    list-style: none;
+}
+
+.opcP1 li{
+    padding-bottom: 10px;
+}
+#title{
+    color: #1cc3b2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+#title2{
+    color: #1cc3b2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.MainBtnHB{
+    padding-bottom: 45px;
+    padding-left: 10px;
+}
+
+#desc{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.btnHB_PP{
+    width: 190px;
+    height: 55px;
+    background: #1cc3b2;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+
+
+/* -------------------------------------------------------------------- */
+
+@media(max-width:700px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+/* Pie de pagina */
+
+.MainPiePag{
+    background: #2a3942;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.MainBtnHB{
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+.opcP1{
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PiePagGlobal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2a3942;
+}
+
+#title{
+    color: #1cc3b2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+#title2{
+    color: #1cc3b2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+}

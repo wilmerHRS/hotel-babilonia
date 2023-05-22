@@ -1,0 +1,366 @@
+/* 
+    TODO: Importando tipografía
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: "Poppins", sans-serif;
+  }
+/* 
+    !Variables
+*/
+:root{
+    font-size: 10px;
+    --primary-color: #0E2737;
+    --secondary-color: #1CC3B2;
+    --text-nav-color: #ffffff;
+    --hover-nav-color: #0EFFF1;
+    --content-text-color: #9B9B9B;
+}
+
+
+/*
+    TODO: Estilos para navbar
+*/
+.main-content{
+    display: flex;
+}
+.main{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 350px){
+    body{
+        zoom: .7;
+    }
+}
+/* 
+    TODO: Main styles
+*/
+
+
+
+/*
+    ? Palabras style
+*/
+
+#palabras{
+    margin: 7.4rem 0;
+}
+
+#palabras .section-content{
+    display: flex;
+    margin: 1rem 10rem;
+    justify-content: space-between;
+}
+#palabras .palabras__border-img picture img{
+    width: 39rem;
+    height: auto;
+}
+
+
+#palabras .palabras__content{
+    display: inline-block;
+    width: 60rem;
+}
+#palabras .palabras__content h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 3.8rem;
+    font-weight: 500;
+}
+#palabras .palabras__content p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: var(--content-text-color);
+}
+
+.hr__first{
+    margin: 0 5rem;
+    border: none;
+    border-top: solid 3px #1CC3B2;
+    border-radius: 2px;
+}
+
+/* 
+    ? Ambiente Style
+*/
+#ambientes{
+    display: flex;
+}
+#ambientes .ambiente-content{
+    margin: 0 10rem;
+}
+#ambientes .ambiente-content p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    color: var(--content-text-color);
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+#ambientes .ambiente-content .ambiente-titulo{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+#ambientes .ambiente-content .ambientes__cards{
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fill,minmax(35em,1fr));
+    grid-auto-rows: 35rem;
+    margin-top: 5rem;
+}
+#ambientes .ambiente-content .ambientes__cards .card{
+    width: 100%;
+    background-image: var(--i);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2.5rem;
+    box-shadow: 0 0 1.5rem .2rem rgba(0, 0, 0, .35);
+    border-radius: 2px;
+}
+#ambientes .ambiente-content .ambientes__cards .card div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+}
+#ambientes .ambiente-content .ambientes__cards .card div:hover{
+    background-color: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(.7rem);
+    transition: .25s;
+}
+#ambientes .ambiente-content .ambientes__cards .card div h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.9rem;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    border-bottom: solid 3px #ffffff;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    -webkit-text-stroke: 2px #000;
+    line-height: 5rem;
+}
+
+/* 
+    ? Lo que dice la gente Styles
+*/
+
+#dice{
+    display: flex;
+    background-color: var(--primary-color);
+    height: 75rem;
+    margin-top: 5rem;
+    flex-direction: column;
+}
+#dice .dice-title{
+    display: inline-block;
+    color: var(--text-nav-color);
+    font-family: 'Poppins',sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+    margin-left: 25%;
+}
+#dice .dice__borde{
+    border: solid 2px #ffffff;
+    max-width: 80rem;
+    width: 60%;
+    height: 50rem;
+    margin: 1rem auto;
+}
+#dice .dice-father{
+    position: absolute;
+    background-color: var(--text-nav-color);
+    max-width: 80rem;
+    width: 60%;
+    height: 50rem;
+    padding: 2rem 0;
+    margin-top: 17rem;
+    margin-left: 22.3%;
+}
+#dice  .dice-father .dice__contain h1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 800;
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 3rem 4rem;
+}
+#dice  .dice-father .dice__contain p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.7rem;
+    color: var(--content-text-color);
+    width: 65%;
+    margin: 3rem auto;
+    text-align: justify;
+}
+#dice  .dice-father .dice__contain .persona{
+    display: flex;
+    gap: 4rem;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+#dice .dice-father  .dice__contain .persona .persona-name{
+    display: flex;
+    margin: auto 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.1rem;
+    gap: 2rem;
+}
+#dice .dice-father  .dice__contain .persona .persona-name .labor{
+    color: var(--content-text-color);
+}
+#dice .dice-father  .dice__contain .persona .profile{
+    background-image: url(../../assets/img/persona.png);
+    background-size: 100px;
+    background-color: rgb(250, 198, 198);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+/*
+    *Mainmediaquerys
+*/
+@media screen and (max-width: 1240px){
+    /*
+    ! Palabras
+    */
+    #palabras{
+        text-align: center;
+    }
+    #palabras .section-content{
+        margin: 0 20%;
+        flex-direction: column-reverse;
+    }
+    #palabras .section-content .palabras__border-img{
+        margin-top: 3rem;
+    }
+    #palabras .section-content .palabras__content{
+        width: 100%;
+    }
+    #palabras .section-content .palabras__content h1{
+        font-size: 2.8rem;
+        text-align: left;
+    }
+    #palabras .section-content .palabras__content p{
+        text-align: justify;
+    }
+    
+    /*
+    ! Ambientes
+    */
+    /*  
+    !Dice la gente
+    */
+    
+}
+@media screen and (max-width: 1078px) {
+    #dice .dice__contain{
+        margin-top: 10rem;
+    }
+    #dice .dice__contain h1{
+        font-size: 1.1rem;
+    }
+    #dice .dice__contain p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #dice .dice__contain .persona .profile{
+        display: none;
+    }
+}
+@media screen and (max-width: 830px) {
+    #dice .dice__borde{
+        display: none;
+    }
+    #dice .dice-title{
+        font-size: 4rem;
+        margin: 6rem 0;
+        text-align: center;
+    }
+    #dice .dice-father{
+        position: relative;
+        max-width: 100rem;
+        width: 80%;
+        margin: 3rem auto;
+    }
+    #dice .dice-father .dice__contain h1{
+        font-size: 1.9rem;
+    }
+    #dice .dice-father .dice__contain p{
+        width: 80%;
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width: 720px) {
+    /*
+    ! Palabras
+    */
+    #palabras{
+        margin: 0 0 3rem 0;
+    }
+    #palabras .section-content{
+        margin: 0 3rem;
+    }
+    #palabras .palabras__border-img picture img{
+        width: 60%;
+        height: auto;
+    }
+    /*
+    ! Ambientes
+    */
+}
+
+@media screen and (max-width: 600px) {
+    /*
+    ! Palabras
+    */
+    #palabras .palabras__border-img picture img{
+        width: 80%;
+        height: auto;
+    }
+    #palabras .section-content .palabras__content p{
+        font-size: 1.5rem;
+    }
+    /*
+    ! Ambientes
+    */
+    #ambientes .ambiente-content{
+        margin: 0 5rem;
+    }
+    #ambientes .ambiente-content p{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #ambientes .ambiente-content .ambientes__cards{
+
+        grid-template-columns: repeat(auto-fill,minmax(25em,1fr));
+        grid-auto-rows: 25rem;
+    }
+
+    #ambientes .ambiente-content .ambientes__cards .card div h1{
+        font-size: 2rem;
+        -webkit-text-stroke: 1px #000;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    #dice .dice-father{
+        width: 100%;
+    }
+    #dice .dice__contain{
+        margin: 0 .6rem;
+    }
+}

@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+label, div {
+    font-size: 16px;
+}
+  
+.btnregin > li {
+font-size: 20px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.divDescripcion > p {
+    font-size: 16px;
+}
+
+/* Imagen de fondo en la pagina web */
+
+.Main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; Centrar div de manera horizontal*/
+    align-items: center;
+}
+.bgMain{
+    background-image: url(../img/b7.1.jpg);
+    background-size: cover;
+    background-position: center ;
+    width: 850px;
+    height: 350px;
+}
+
+/* Descripción del hotel babilonia */
+.divLogo{
+    background-image: url(../img/logoHB-removebg-preview.png);
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+}
+
+.divDescripcion{
+    width: 600px;
+    height: 200px;
+    padding: 10px 30px 30px 50px;
+}
+
+.divDescripcion h1{
+    color: #2a3942;
+    font-size: 52px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.MainDescripcion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px; 
+}
+
+
+
+/* Barra lateral */
+.barra-lateral{
+    background: #2a3942;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+/* Barra lateral de filtrado */
+.divMainNav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.divMainNav ul{
+    list-style: none;
+
+}
+
+.divMainNav ul li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+.divMainNav button{
+
+    background: #1cc3b2;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.divMainNav button:hover{
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    height: 35px;
+}
+
+
+.divMainNav input{
+    background: #1cc3b2;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    width: 170px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+
+.divMainNav select{
+    width: 200px;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 6px;
+    background: #dddddd;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+::placeholder { color: white; }
+
+
+/* Habitaciones disponibles */
+
+.imgPd{
+    padding: 30px 0px 30px 0px;
+}
+
+/* Habitacion Estandar */
+
+.AllHB_E{
+    background: #2a3942;
+    width: 700px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    border:none;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 3px 3px #1cc3b2;
+}
+
+.divDescripcionH_E{
+    width: 450px;
+    height: 150px;
+    padding: 30px 30px 30px 50px;
+    color: white;
+}
+
+.divDescripcionH_E h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.divImgH3{
+    background-image: url(../img/bg5.png);
+    width: 200px;
+    height: 130px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+/* Habitación premiun */
+
+.AllHB_P{
+    background: #2a3942;
+    width: 700px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    border:none;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 3px 3px rgb(238, 180, 72);
+}
+
+.divDescripcionH_P{
+    width: 450px;
+    height: 150px;
+    padding: 30px 30px 30px 50px;
+    color: white;
+}
+
+.divDescripcionH_P h1{
+    color: rgb(238, 180, 72);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.divImgH{
+    background-image: url(../img/bg1.jpg);
+    width: 200px;
+    height: 130px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.divImgH2{
+    background-image: url(../img/bg2.jpg);
+    width: 200px;
+    height: 130px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* Ocultar logo - Vista en movules*/
+
+@media(max-width:700px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+    #idLogo{
+        display: none;
+    }
+
+    .bgMain{
+        background-image: url(../img/b7.1.jpg);
+        background-size: cover;
+        background-position: center ;
+        width: 800px;
+        height: 350px;
+    }
+
+    .MainDescripcion{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 80px; 
+    }
+
+    .divDescripcion h1{
+        color: #2a3942;
+        font-size: 40px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    #idImgHb{
+        display: none;
+    }
+
+    /* Barra de nuestras habitaciones */
+
+    .barra-lateral{
+        background: #2a3942;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        color: white;
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    /* Habitaciones  */
+
+    .AllHB_P{
+        background: #2a3942;
+        width: 100%;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        border-radius: 12px;
+        border:none;
+        margin: auto;
+        margin-bottom: 50px;
+        box-shadow: 3px 3px 3px 3px rgb(238, 180, 72);
+    }
+
+    .divDescripcionH_P h1{
+        color: rgb(238, 180, 72);
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+        padding-bottom: 15px;
+    }
+
+    .divDescripcionH_E h1{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+        padding-bottom: 15px;
+    }
+
+    .AllHB_E{
+        background: #2a3942;
+        width: 100%;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        border-radius: 12px;
+        border:none;
+        margin: auto;
+        margin-bottom: 50px;
+        box-shadow: 3px 3px 3px 3px #1cc3b2;
+    }
+
+    .divDescripcion > p {
+        font-size: 12px;
+    }
+
+    .divDescripcion > h1 {
+        font-size: 17px;
+    }
+}   

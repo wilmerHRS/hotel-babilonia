@@ -1,0 +1,176 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+    background: linear-gradient(to right, #FFFF , #CCCCCC);
+}
+
+h1 {
+    margin: 0 !important;
+}
+
+form{
+    border-radius: 20px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    margin: 20px auto;
+    padding: 25px 50px;
+    box-shadow: 2 2px 2px;
+}
+
+.title{   
+    color: black;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 400;
+    position: relative;
+
+}
+.input-text{
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid color #0E2737;
+    width: 97%;
+    padding: 13px 10px;
+    margin-top: 10px;
+    border:1px solid #CCCCCC;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.input-text:focus{
+    outline: none;
+    border-color: #1CC3B2;
+
+}
+
+
+
+
+
+
+
+.ui-binary-input{
+    margin-top: 30PX;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+form label input{
+    
+    padding: 0 19px;
+    transition-duration: 500ms;
+
+    
+}
+
+.cox-con{
+    font-family: 'Inter', sans-serif ;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.linkp{
+    color: #0E2737;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.hybrid-login-form .hybrid-login-form-help {
+    display: flex;
+}
+
+.Boton{
+    margin-top: 37px;
+    font-family: ROBOTO;
+    font-size: 17PX;
+    border: 1px solid #0E2737;
+    border-radius: 4px;
+    background: #0E2737;
+    padding: 13px;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+    transition-duration:500ms ;
+
+}
+
+
+
+.Boton:hover{
+    background-color: #1CC3B2 ;
+    
+}
+
+
+
+.letra , .Boton{
+    color: #FFFF;
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 290;
+    font-family: 'Inter', sans-serif;
+}
+
+.letra2{
+    color: #FFFF;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+    
+}
+
+.letra2:hover{
+    cursor: pointer;
+    
+}
+
+.xd{
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+}
+
+.UNU{
+    color:#CCCCCC;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+.ult{
+    
+    display: block;
+    background-color: #1D88CC;
+    margin: 0 auto;
+    margin-top: 17px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+    width: 222px;
+    max-width: fit-content;
+    line-height: 48px;
+    transition-duration: 500ms;
+}
+
+.ult:hover{
+    cursor: pointer;
+    background-color: #1CC3B2 ;
+}
